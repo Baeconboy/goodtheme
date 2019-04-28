@@ -1,0 +1,177 @@
+//META{"name":"New_fucking_Theme","description":"man sure does feel great to be alive doesnt it","author":"Baecon","version":"1.0"}*//
+
+:root {
+  --main-color: 0, 147, 250;
+  --main-bg: url(https://wonderfulengineering.com/wp-content/uploads/2014/06/galaxy-wallpapers-12.jpg)
+}
+
+body{
+  background-image: var(--main-bg) !important;
+}
+ .contentRegion-3nDuYy, .standardSidebarView-3F1I7i, #user-settings, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .theme-dark .guildsWrapper-5TJh6A, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .typing-2GQL18,
+.theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, #app-mount, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark #friends,
+.theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb, .theme-dark .content-yTz4x3, .chat-3bRxxu.da-chat, .theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi span
+{
+  background:rgba(0,0,0,0.1) !important;
+}
+.contentSelectedText-3wUhMi,.private-channels .channel.selected a,.private-channels .channel:hover a,
+.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active,.contentSelectedVoice-1WDIBM:active,
+.theme-dark .member-3W1lQa:hover .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
+.theme-dark #friends .friends-table .friends-row:hover, .theme-dark .header-1RC2Wb, .theme-dark .body-SKIE6r, .theme-dark .emptyState-2-sT0o,
+.da-card, .da-feedCarousel .da-header, .da-feedCarousel .da-article, .paginationItem-3-MBTL, , .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a{
+  background:rgba(0,0,0,0.3)!important;
+}
+.theme-dark .message-group .comment .markup code.inline, .sidebarRegion-VFTUkN, .wrapper-1Rf91z{
+  background:rgba(0,0,0,0.5)!important;
+}
+/** scrollbar **/
+.theme-dark .member-2FrNV0:hover .content-3JzEqq, .scroller::-webkit-scrollbar-thumb, .scroller::-webkit-scrollbar-thumb {
+  background-color:rgba(0,0,0,0.5) !important;
+  border-color:transparent !important;
+}
+.scroller::-webkit-scrollbar-track-piece {
+  background-color:transparent !important;
+  background-clip: padding-box;
+  border: 3px solid rgba(0,0,0,0) !important;
+  border-radius: 7px;
+}
+.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
+  background:rgba(0,0,0,0.5);
+}
+
+
+.wordmark-2iDDfm svg path{
+  fill: rgba(var(--main-color), 1);
+}
+
+
+/* make 3 dots when typing invisible */
+.pulsingEllipsisItem-32hhWL{
+  display: none;
+}
+/* mask to make pfp a full circle in server view */
+.mask-3OgeRz{
+  -webkit-mask: url(https://svgshare.com/i/954.svg) !important;
+  mask: url(https://svgshare.com/i/954.svg) !important;
+}
+/* make things less shitty when typing */
+.content-OzHfo4, .channel-2QD9_O{
+  z-index: 10;
+}
+/* Status in Server view */
+.status-oxiHuE.status-2s6iDp{
+  left: -10px;
+  width: 6px;
+  height: 34px;
+  border-radius: 7px;
+  transition: background-color 0.3s, width 1s;
+  z-index: -1;
+}
+/* Typing in server view */
+.status-oxiHuE.status-2s6iDp.typing-1KJk_j{
+  left: -10px;
+  width: 223px!important;
+  height: 36px!important;
+  transition: background-color 0.3s, width 1s;
+  animation: pulse 1s infinite;
+}
+/* Status in friends view */
+.status-oxiHuE.small-5Os1Bb.status-2zcSVk.status-1ibiUI{
+  position: relative;
+  height: 36px;
+  width: 7px;
+  transition: 0s, width 1s, left 1s, background-color 1s;
+  bottom: 35px;
+  left: 204px;
+  z-index: 1;
+}
+/* Status in friends view when typing */
+.status-oxiHuE.small-5Os1Bb.status-2zcSVk.status-1ibiUI.typing-1KJk_j {
+  position: relative;
+  height: 36px !important;
+  width: 222px !important;
+  transition: background-color 0.3s, width 1s, left 1s;
+  bottom: 35px;
+  left: -11px;
+  animation: pulse 1s infinite;
+}
+.selected-1HYmZZ{
+  z-index: 0;
+  filter: hue-rotate(180deg);
+  background-color: transparent !important;
+}
+.selected-1HYmZZ a{
+  filter: hue-rotate(-180deg);
+  background-color: transparent !important;
+}
+
+.channel-2QD9_O *, .avatar-28BJzY{
+  z-index: 10;
+}
+
+.channel-2QD9_O:hover{
+  filter: hue-rotate(45deg) !important;
+}
+
+.channel-2QD9_O:hover a{
+  background-color: transparent;
+  filter: hue-rotate(-45deg) !important;
+}
+
+/* Mention color */
+.isMentioned-N-h9aa{
+  background-color: rgba(var(--main-color), .1) !important;
+}
+/* mention border left */
+.isMentioned-N-h9aa::after{
+  border-left-color: rgb(var(--main-color)) !important;
+}
+
+.inner-zqa7da, .contentSelectedText-3wUhMi{
+  background-color: rgba(var(--main-color), .3) !important;
+}
+ .unread-1xRYoj, .wrapper-2lTRaf{
+   background-color: rgba(var(--main-color), .9) !important;
+ }
+
+.dividerContent-2L12VI{
+  background-color: transparent !important;
+}
+
+.member-3W1lQa, .channel-2QD9_O{
+  background-image: linear-gradient(to top, rgba(var(--main-color), .3) 0%, transparent 60%);
+  border-bottom: 2px solid rgba(var(--main-color), 1);
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-track-piece{
+  background-color: transparent !important;
+  border: none !important;
+}
+.scroller-2FKFPG::-webkit-scrollbar-thumb{
+  filter:brightness(200%) !important;
+  background-color: rgba(var(--main-color), .1) !important;
+  border-color: rgba(var(--main-color), .2) !important;
+}
+
+.video-1FfuMD, .wrapper-29NfPK{
+  background-color: rgba(0, 0, 0, .3) !important;
+}
+
+.timestampCozy-2hLAPV{
+  font-weight: 900;
+  color: black !important;
+  background-color: rgba(var(--main-color), 0.7);
+  border-radius: 7px;
+  border-style: solid;
+  border-color: rgb(var(--main-color)) !important;
+  border-width: 2px !important;
+}
+/*                          Animations                                          */
+
+@keyframes pulse {
+  50%{
+    background-color: white;
+  }
+}
