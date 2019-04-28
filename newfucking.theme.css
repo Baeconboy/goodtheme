@@ -159,15 +159,17 @@ body{
   background-color: rgba(0, 0, 0, .3) !important;
 }
 
-.timestampCozy-2hLAPV{
-  font-weight: 600;
-  color: black !important;
-  background-color: rgba(var(--main-color), 0.7);
+.headerCozyMeta-rdohGq{
+  background-image: linear-gradient(to left, rgba(var(--main-color), .3) 45%, black 65%);
   border-radius: 7px;
   border-style: solid;
   border-color: rgb(var(--main-color)) !important;
   border-width: 2px !important;
 }
+.timestampCozy-2hLAPV{
+  font-weight: 900;
+  color: black !important;
+
 /*                          Animations                                          */
 
 @keyframes pulse {
