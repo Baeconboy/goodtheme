@@ -140,8 +140,12 @@ body{
   background-color: transparent !important;
 }
 
-.member-3W1lQa, .channel-2QD9_O{
+.member-3W1lQa{
   background-image: linear-gradient(to top, rgba(var(--main-color), .3) 0%, transparent 60%);
+  border-bottom: 2px solid rgba(var(--main-color), 1);
+}
+.channel-2QD9_O {
+  background-image: linear-gradient(to top, rgba(var(--main-color), .1) 0%, transparent 50%);
   border-bottom: 2px solid rgba(var(--main-color), 1);
 }
 
@@ -160,6 +164,10 @@ body{
 }
 
 .headerCozyMeta-rdohGq{
+  position: relative;
+  top: -10px;
+  text-align: center !important;
+  height: 20px;
   background-image: linear-gradient(to left, rgba(var(--main-color), .3) 45%, black 65%);
   border-radius: 7px;
   border-style: solid;
@@ -170,44 +178,52 @@ body{
   font-weight: 450;
   color: white !important;
 }
-
-.container-1 .name-IbjUBS{
+.headerCozyMeta-rdohGq *{
+  position: relative;
+  top: 1.5px;
+}
+/* <editor-fold category colors*/
+.container-1 .name-IbjUBS, .container-7 .name-IbjUBS{
   color: #ed6f85;
 }
-.container-2 .name-IbjUBS{
+.container-2 .name-IbjUBS, .container-8 .name-IbjUBS{
   color: #ffba6d;
 }
-.container-3 .name-IbjUBS{
+.container-3 .name-IbjUBS, .container-9 .name-IbjUBS{
   color: #fedd74;
 }
-.container-4 .name-IbjUBS{
+.container-4 .name-IbjUBS, .container-10 .name-IbjUBS{
   color: #b2f067;
 }
-.container-5 .name-IbjUBS{
+.container-5 .name-IbjUBS, .container-11 .name-IbjUBS{
   color: #4572e7;
 }
-.container-6 .name-IbjUBS{
-  color: #d287f0;
-}
-.container-7 .name-IbjUBS{
-  color: #ed6f85;
-}
-.container-8 .name-IbjUBS{
-  color: #ffba6d;
-}
-.container-9 .name-IbjUBS{
-  color: #fedd74;
-}
-.container-10 .name-IbjUBS{
-  color: #b2f067;
-}
-.container-11 .name-IbjUBS{
-  color: #4572e7;
-}
-.container-12 .name-IbjUBS{
+.container-6 .name-IbjUBS, .container-12 .name-IbjUBS{
   color: #d287f0;
 }
 
+/* </editor-fold> */
+
+/* <editor-fold channel colors*/
+.container-1 *:not(.name-IbjUBS), .container-7 *:not(.name-IbjUBS){
+  color: #ea8f9f !important;
+}
+.container-2 *:not(.name-IbjUBS), .container-8 *:not(.name-IbjUBS){
+  color: #ffcb93 !important;
+}
+.container-3 *:not(.name-IbjUBS), .container-9 *:not(.name-IbjUBS){
+  color: #fce294 !important;
+}
+.container-4 *:not(.name-IbjUBS), .container-10 *:not(.name-IbjUBS){
+  color: #bbef7c !important;
+}
+.container-5 *:not(.name-IbjUBS), .container-11 *:not(.name-IbjUBS){
+  color: #6B8EE5 !important;
+}
+.container-6 *:not(.name-IbjUBS), .container-12 *:not(.name-IbjUBS){
+  color: #D8A2EF !important;
+}
+/* </editor-fold> */
 
 
 /*                          Animations                                          */
