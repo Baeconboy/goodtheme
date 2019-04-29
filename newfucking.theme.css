@@ -225,7 +225,9 @@ body{
 }
 /* </editor-fold> */
 
-
+.modeMuted-3osy7j{
+  filter: brightness(50%);
+}
 /*                          Animations                                          */
 
 @keyframes pulse {
