@@ -4,6 +4,21 @@
   --main-color: 0, 147, 250;
   --main-bg: url(https://wonderfulengineering.com/wp-content/uploads/2014/06/galaxy-wallpapers-12.jpg)
 }
+/* <editor-fold Background removals */
+
+.wordmark-2iDDfm{
+  position: left;
+  left: -62px;
+}
+
+.wordmark-2iDDfm::after{
+  text-align: center;
+  content:' Endgame Memes die in Endgame';
+  color: rgb(var(--main-color));
+  align-self: center;
+  font-weight: 900;
+  font-size: 15px;
+}
 
 body{
   background-image: var(--main-bg) !important;
@@ -41,15 +56,16 @@ body{
   background:rgba(0,0,0,0.5);
 }
 
-.itemBackground-2vEldQ:before{
+.itemBackground-2vEldQ:before, .dividerContent-2L12VI{
   background: transparent !important;
 }
 
 .wordmark-2iDDfm svg path{
   fill: rgba(var(--main-color), 1);
 }
+/* </editor-fold> */
 
-
+/* <editor-fold Status */
 /* make 3 dots when typing invisible */
 .pulsingEllipsisItem-32hhWL{
   display: none;
@@ -122,7 +138,9 @@ body{
   background-color: transparent;
   filter: hue-rotate(-45deg) !important;
 }
+/* </editor-fold> */
 
+/* <editor-fold Server Things */
 /* Mention color */
 .isMentioned-N-h9aa{
   background-color: rgba(var(--main-color), .1) !important;
@@ -139,10 +157,6 @@ body{
    background-color: rgba(var(--main-color), .9) !important;
  }
 
-.dividerContent-2L12VI{
-  background-color: transparent !important;
-}
-
 .member-3W1lQa{
   background-image: linear-gradient(to top, rgba(var(--main-color), .3) 0%, transparent 60%);
   border-bottom: 2px solid rgba(var(--main-color), 1);
@@ -151,7 +165,9 @@ body{
   background-image: linear-gradient(to top, rgba(var(--main-color), .1) 0%, transparent 50%);
   border-bottom: 2px solid rgba(var(--main-color), 1);
 }
+/* </editor-fold> */
 
+/* <editor-fold Scroller */
 .scroller-2FKFPG::-webkit-scrollbar-track-piece{
   background-color: transparent !important;
   border: none !important;
@@ -161,21 +177,37 @@ body{
   background-color: rgba(var(--main-color), .1) !important;
   border-color: rgba(var(--main-color), .2) !important;
 }
+/* </editor-fold> */
 
+/* <editor-fold Call things */
 .video-1FfuMD, .wrapper-29NfPK{
   background-color: rgba(0, 0, 0, .3) !important;
 }
+/* </editor-fold> */
 
+/* <editor-fold Timestamp things */
 .headerCozyMeta-rdohGq{
   position: relative;
   top: -10px;
   text-align: center !important;
   height: 20px;
-  background-image: linear-gradient(to left, rgba(var(--main-color), .3) 45%, black 65%);
-  border-radius: 7px;
-  border-style: solid;
-  border-color: rgb(var(--main-color)) !important;
-  border-width: 2px !important;
+  background-image: linear-gradient(to top, rgba(var(--main-color), .3) 45%, transparent);
+  border-bottom: 2px solid rgba(var(--main-color), 1);
+}
+.headerCozyMeta-rdohGq:before{
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to bottom, transparent 20%, rgb(var(--main-color)) 50%);
+  left: -2px;
+  height: 22px;
+  width: 2px;
+}
+.headerCozyMeta-rdohGq:after{
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to bottom, transparent 20%, rgb(var(--main-color)) 50%);
+  height: 22px;
+  width: 2px;
 }
 .timestampCozy-2hLAPV{
   font-weight: 450;
@@ -185,7 +217,9 @@ body{
   position: relative;
   top: 1.5px;
 }
-/* <editor-fold category colors*/
+/* </editor-fold> */
+
+/* <editor-fold category colors */
 .container-1 .name-IbjUBS, .container-7 .name-IbjUBS{
   color: #ed6f85;
 }
@@ -207,7 +241,7 @@ body{
 
 /* </editor-fold> */
 
-/* <editor-fold channel colors*/
+/* <editor-fold channel colors */
 .container-1 *:not(.name-IbjUBS), .container-7 *:not(.name-IbjUBS){
   color: #ea8f9f !important;
 }
@@ -226,12 +260,12 @@ body{
 .container-6 *:not(.name-IbjUBS), .container-12 *:not(.name-IbjUBS){
   color: #D8A2EF !important;
 }
-/* </editor-fold> */
-
 .modeMuted-3osy7j{
   filter: brightness(50%);
 }
+/* </editor-fold> */
 
+/* <editor-fold toggle buttons */
 .valueUnchecked-2lU_20{
   border-radius: 0px !important;
   overflow: hidden !important;
@@ -273,6 +307,17 @@ body{
   background-color: transparent !important;
   -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 }
+.valueChecked-m-4IJZ:hover{
+  background: rgba(var(--main-color), .8) !important;
+  transition: .3s;
+}
+.valueUnchecked-2lU_20:hover{
+  background: rgba(50, 50, 50, .6) !important;
+  transition: .3s;
+}
+/* </editor-fold> */
+
+/* <editor-fold buttons */
 .searchBar-3dMhjb, .searchBarComponent-32dTOx, .button-38aScr, .button-2b6hmh{
   transition: .5s;
   background-color: rgba(var(--main-color), .3) !important;
@@ -286,14 +331,7 @@ body{
   background-color:rgba(var(--main-color), .5) !important;
   transition: .5s;
 }
-.valueChecked-m-4IJZ:hover{
-  background: rgba(var(--main-color), .8) !important;
-  transition: .3s;
-}
-.valueUnchecked-2lU_20:hover{
-  background: rgba(50, 50, 50, .6) !important;
-  transition: .3s;
-}
+/* </editor-fold> */
 /*                          Animations                                          */
 
 @keyframes pulse {
