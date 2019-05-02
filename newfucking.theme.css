@@ -23,8 +23,8 @@ body{
 .da-card, .da-feedCarousel .da-header, .da-feedCarousel .da-article, .paginationItem-3-MBTL, , .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a{
   background:rgba(0,0,0,0.3)!important;
 }
-.stickyHeader-1pqx0j, .libraryHeader-3g95kE, .gameUpdates-2GPqBU, .theme-dark .container-1r6BKw, .theme-dark .message-group .comment .markup code.inline, .sidebarRegion-VFTUkN, .wrapper-1Rf91z{
-  background:rgba(0,0,0,0.5)!important;
+.tile-QA_yMc,.applicationStore-1pNvnv, .stickyHeader-1pqx0j, .libraryHeader-3g95kE, .gameUpdates-2GPqBU, .theme-dark .container-1r6BKw, .theme-dark .message-group .comment .markup code.inline, .sidebarRegion-VFTUkN, .wrapper-1Rf91z{
+  background-color:rgba(0,0,0,0.5)!important;
 }
 /** scrollbar **/
 .theme-dark .member-2FrNV0:hover .content-3JzEqq, .scroller::-webkit-scrollbar-thumb, .scroller::-webkit-scrollbar-thumb {
@@ -41,6 +41,9 @@ body{
   background:rgba(0,0,0,0.5);
 }
 
+.itemBackground-2vEldQ:before{
+  background: transparent !important;
+}
 
 .wordmark-2iDDfm svg path{
   fill: rgba(var(--main-color), 1);
@@ -230,20 +233,19 @@ body{
 }
 
 .valueUnchecked-2lU_20{
-  border-radius: 0px;
-  overflow: hidden;
+  border-radius: 0px !important;
+  overflow: hidden !important;
   transform: skew(-10deg);
   backface-visibility: hidden;
-  transition: all .2s ease;
-  background: rgba(50, 50, 50, .3);
+  transition: all .2s ease !important;
+  background: rgba(50, 50, 50, .3) !important;
   border-bottom: 2px solid rgba(50, 50, 50, 1);
-  transition: border-bottom .5s ease;
 }
 .valueUnchecked-2lU_20::after{
   transition: left .2s;
   transform: translate3d(0,0,0) !important;
   font-weight: 900;
-  content: "OFF";
+  content: "OFF" !important;
   color: white;
   left: 5px;
   text-align: center;
@@ -251,27 +253,47 @@ body{
   -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 }
 .valueChecked-m-4IJZ{
-  border-radius: 0px;
-  overflow: hidden;
-  transform: skew(-10deg);
+  width: 42px;
+  border-radius: 0px !important;
+  overflow: hidden !important;
+  transform: skew(-10deg) !important;
   backface-visibility: hidden;
   font-family: sans-serif;
   background: rgba(var(--main-color), .5) !important;
   border-bottom: 2px solid rgba(var(--main-color), 1);
-  transition: border-bottom .5s ease;
+  transition: border-bottom .2s ease, background .3s;
 }
 .valueChecked-m-4IJZ::after{
   transition: left .2s;
   font-weight: 900;
-  content: "ON";
+  content: "ON" !important;
+  color: black;
   left: -14px;
   text-align: center;
   background-color: transparent !important;
   -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 }
-
-
-
+.searchBar-3dMhjb, .searchBarComponent-32dTOx, .button-38aScr, .button-2b6hmh{
+  transition: .5s;
+  background-color: rgba(var(--main-color), .3) !important;
+  border-radius: 0px;
+  border-bottom: 2px solid rgba(var(--main-color), 1);
+}
+.btn-primary{
+  background-color: rgb(var(--main-color)) !important;
+}
+.button-38aScr:hover, .button-2b6hmh:hover{
+  background-color:rgba(var(--main-color), .5) !important;
+  transition: .5s;
+}
+.valueChecked-m-4IJZ:hover{
+  background: rgba(var(--main-color), .8) !important;
+  transition: .3s;
+}
+.valueUnchecked-2lU_20:hover{
+  background: rgba(50, 50, 50, .6) !important;
+  transition: .3s;
+}
 /*                          Animations                                          */
 
 @keyframes pulse {
