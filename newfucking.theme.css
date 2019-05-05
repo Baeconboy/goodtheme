@@ -6,6 +6,14 @@
 }
 /* <editor-fold Background removals */
 
+.wrapper-1Rf91z, .container-1r6BKw, .divider-3gKybi span{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.attachButton-1UjEWA{
+  background-color: transparent !important;
+}
+
 .wordmark-2iDDfm{
   position: left;
   left: -62px;
@@ -16,6 +24,7 @@
   content:' Endgame Memes die in Endgame';
   color: rgb(var(--main-color));
   align-self: center;
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 15px;
 }
@@ -27,7 +36,7 @@ body{
 .theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, #app-mount, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
 .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark #friends,
 .theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb, .theme-dark .content-yTz4x3, .chat-3bRxxu.da-chat, .theme-dark .messagesWrapper-3lZDfY,
-.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi span
+.theme-dark .chat-3bRxxu, .theme-dark .content-yTz4x3, .theme-dark .divider-3gKybi:before
 {
   background:rgba(0,0,0,0.1) !important;
 }
@@ -38,7 +47,7 @@ body{
 .da-card, .da-feedCarousel .da-header, .da-feedCarousel .da-article, .paginationItem-3-MBTL, , .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a{
   background:rgba(0,0,0,0.3)!important;
 }
-.tile-QA_yMc,.applicationStore-1pNvnv, .stickyHeader-1pqx0j, .libraryHeader-3g95kE, .gameUpdates-2GPqBU, .theme-dark .container-1r6BKw, .theme-dark .message-group .comment .markup code.inline, .sidebarRegion-VFTUkN, .wrapper-1Rf91z{
+.tile-QA_yMc,.applicationStore-1pNvnv, .stickyHeader-1pqx0j, .libraryHeader-3g95kE, .gameUpdates-2GPqBU, .theme-dark .message-group .comment .markup code.inline, .sidebarRegion-VFTUkN{
   background-color:rgba(0,0,0,0.5)!important;
 }
 /** scrollbar **/
@@ -56,7 +65,7 @@ body{
   background:rgba(0,0,0,0.5);
 }
 
-.itemBackground-2vEldQ:before, .dividerContent-2L12VI{
+.itemBackground-2vEldQ:before, .dividerContent-2L12VI, .chat-3bRxxu form{
   background: transparent !important;
 }
 
@@ -150,7 +159,7 @@ body{
   border-left-color: rgb(var(--main-color)) !important;
 }
 
-.inner-zqa7da, .contentSelectedText-3wUhMi{
+.contentSelectedText-3wUhMi{
   background-color: rgba(var(--main-color), .3) !important;
 }
  .unread-1xRYoj, .wrapper-2lTRaf{
@@ -318,19 +327,27 @@ body{
 /* </editor-fold> */
 
 /* <editor-fold buttons */
-.searchBar-3dMhjb, .searchBarComponent-32dTOx, .button-38aScr, .button-2b6hmh{
+.searchBar-3dMhjb, .searchBarComponent-32dTOx, .button-38aScr:not(.attachButton-1UjEWA):not(.buttonWrapper-1ZmCpA):not(.emojiButton-3uL3Aw), .button-2b6hmh, .inner-zqa7da{
   transition: .5s;
   background-color: rgba(var(--main-color), .3) !important;
   border-radius: 0px;
   border-bottom: 2px solid rgba(var(--main-color), 1);
 }
 .btn-primary{
-  background-color: rgb(var(--main-color)) !important;
+  background-color: rgb(var(--main-color));
 }
 .button-38aScr:hover, .button-2b6hmh:hover{
-  background-color:rgba(var(--main-color), .5) !important;
+  background-color:rgba(var(--main-color), .5);
   transition: .5s;
 }
+.buttonWrapper-1ZmCpA, .emojiButton-3uL3Aw{
+  border-right: 1px solid rgba(0, 0, 0, .2);
+}
+.chat-3bRxxu form{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* https://cdn.wallpapersafari.com/62/70/wp6zBQ.jpg */
 /* </editor-fold> */
 /*                          Animations                                          */
 
