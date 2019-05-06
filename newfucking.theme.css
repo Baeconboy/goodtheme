@@ -166,7 +166,7 @@ body{
   border-left-color: rgb(var(--main-color)) !important;
 }
 
-.contentSelectedText-3wUhMi{
+.contentSelectedText-3wUhMi, .uploadModal-2ifh8j, .footer-3mqk7D{
   background-color: rgba(var(--main-color), .3) !important;
 }
  .unread-1xRYoj, .wrapper-2lTRaf{
@@ -283,34 +283,40 @@ body{
 
 /* <editor-fold toggle buttons */
 .valueUnchecked-2lU_20{
+  height: 22px !important;
+  width: 42px !important;
   border-radius: 0px !important;
   overflow: hidden !important;
-  transform: skew(-10deg);
-  backface-visibility: hidden;
+  transform: skew(-10deg) !important;
+  backface-visibility: hidden !important;
   transition: all .2s ease !important;
-  background: rgba(50, 50, 50, .3) !important;
-  border-bottom: 2px solid rgba(50, 50, 50, 1);
+  background-color: rgba(50, 50, 50, .3) !important;
+  border-width: 0px !important;
+  border-bottom: 2px solid rgba(50, 50, 50, 1) !important;
 }
 .valueUnchecked-2lU_20::after{
+  position: absolute;
   transition: left .2s;
   transform: translate3d(0,0,0) !important;
   font-weight: 900;
   content: "OFF" !important;
   color: white;
   left: 5px;
-  text-align: center;
+  text-align: center !important;
   background-color: transparent !important;
   -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 }
 .valueChecked-m-4IJZ{
-  width: 42px;
+  height: 22px !important;
+  width: 42px !important;
   border-radius: 0px !important;
   overflow: hidden !important;
   transform: skew(-10deg) !important;
-  backface-visibility: hidden;
+  backface-visibility: hidden !important;
   font-family: sans-serif;
   background: rgba(var(--main-color), .5) !important;
-  border-bottom: 2px solid rgba(var(--main-color), 1);
+  border-width: 0px;
+  border-bottom: 2px solid rgba(var(--main-color), 1) !important;
   transition: border-bottom .2s ease, background .3s;
 }
 .valueChecked-m-4IJZ::after{
@@ -330,6 +336,19 @@ body{
 .valueUnchecked-2lU_20:hover{
   background: rgba(50, 50, 50, .6) !important;
   transition: .3s;
+}
+
+.checked-3_4uQ9{
+  border-color: rgba(var(--main-color), 1) !important;
+  transform: rotateZ(360deg);
+  border-radius: 50%;
+}
+.checked-3_4uQ9 svg polyline{
+  transform 2s;
+  stroke: rgb(var(--main-color)) !important;
+}
+.checkbox-1ix_J3{
+  transition: background-color .2s, border-color .2s, transform .5s, border-radius .5s;
 }
 /* </editor-fold> */
 
