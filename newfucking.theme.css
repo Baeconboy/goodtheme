@@ -6,8 +6,12 @@
 }
 /* <editor-fold Background removals */
 
+foreignObject{
+  mask: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/500px-Square_-_black_simple.svg.png)
+}
+
 .wrapper-1Rf91z, .container-1r6BKw, .divider-3gKybi span{
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: transparent !important;
 }
 
 .attachButton-1UjEWA{
@@ -353,19 +357,27 @@ body{
 /* </editor-fold> */
 
 /* <editor-fold buttons */
-.searchBar-3dMhjb, .searchBarComponent-32dTOx, .button-38aScr:not(.attachButton-1UjEWA):not(.buttonWrapper-1ZmCpA):not(.emojiButton-3uL3Aw), .button-2b6hmh, .inner-zqa7da{
-  transition: .5s;
+.blob-1PX1Gp, .circleIconButton-jET_ig, .blobContainer-239gwq, .button-OhfaWu:not(.selected-wSa2KV), .searchBar-3dMhjb, .searchBarComponent-32dTOx, .button-38aScr:not(.attachButton-1UjEWA):not(.buttonWrapper-1ZmCpA):not(.emojiButton-3uL3Aw), .button-2b6hmh, .inner-zqa7da{
+  transition: .3s;
   background-color: rgba(var(--main-color), .3) !important;
-  border-radius: 0px;
-  border-bottom: 2px solid rgba(var(--main-color), 1);
+  border-radius: 0px !important;
+  border-bottom: 2px solid rgba(var(--main-color), 1) !important;
 }
+
 .btn-primary{
   background-color: rgb(var(--main-color));
 }
-.button-38aScr:hover, .button-2b6hmh:hover{
-  background-color:rgba(var(--main-color), .5);
-  transition: .5s;
+.button-38aScr:hover, .button-2b6hmh:hover, .blob-1PX1Gp:hover, .button-OhfaWu.selected-wSa2KV, .acronym-2mOFsV:hover, .circleIconButton-jET_ig:hover{
+  border-radius: 0px !important;
+  background-color:rgba(var(--main-color), .5) !important;
+  transition: .3s;
 }
+.acronym-2mOFsV{
+  transition: .3s;
+  background-color: rgba(var(--main-color), .3) !important;
+  border-radius: 0px !important;
+}
+
 .buttonWrapper-1ZmCpA, .emojiButton-3uL3Aw{
   border-right: 1px solid rgba(0, 0, 0, .2);
 }
@@ -373,6 +385,23 @@ body{
   margin-right: 10px;
   margin-left: 10px;
 }
+.pill-31IEus{
+  pointer-events: none;
+  z-index: 1;
+  height: 50px;
+  width: 48px;
+  top: 0px;
+  left: 12px;
+}
+.item-2hkk8m{
+  margin-left: 0px;
+  border-radius: 0px;
+  height: 48px !important;
+  width: 48px !important;
+  background-color: transparent;
+  background-image: linear-gradient(to top, rgba(var(--main-color), 1) 5%, transparent 50%) !important;
+}
+
 /* https://cdn.wallpapersafari.com/62/70/wp6zBQ.jpg */
 /* </editor-fold> */
 /*                          Animations                                          */
