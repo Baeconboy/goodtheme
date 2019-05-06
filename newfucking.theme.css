@@ -118,22 +118,23 @@ body{
 }
 /* Status in friends view */
 .status-oxiHuE.small-5Os1Bb.status-2zcSVk.status-1ibiUI{
+  border-radius: 0px;
   position: relative;
-  height: 36px;
+  height: 38px;
   width: 7px;
   transition: 0s, width 1s, left 1s, background-color 1s;
-  bottom: 35px;
-  left: 204px;
+  bottom: 36px;
+  left: 205px;
   z-index: 1;
 }
 /* Status in friends view when typing */
 .status-oxiHuE.small-5Os1Bb.status-2zcSVk.status-1ibiUI.typing-1KJk_j {
   position: relative;
-  height: 36px !important;
-  width: 222px !important;
+  height: 38px !important;
+  width: 228px !important;
   transition: background-color 0.3s, width 1s, left 1s;
-  bottom: 35px;
-  left: -11px;
+  bottom: 36px;
+  left: -16px;
   animation: pulse 1s infinite;
 }
 .selected-1HYmZZ{
