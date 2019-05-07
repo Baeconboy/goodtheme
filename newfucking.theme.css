@@ -101,18 +101,18 @@ body{
 }
 /* Status in Server view */
 .status-oxiHuE.status-2s6iDp{
-  left: -10px;
+  border-radius: 0px;
+  left: -9px;
   width: 6px;
   height: 34px;
-  border-radius: 7px;
   transition: background-color 0.3s, width 1s;
   z-index: -1;
 }
 /* Typing in server view */
 .status-oxiHuE.status-2s6iDp.typing-1KJk_j{
-  left: -10px;
-  width: 223px!important;
-  height: 36px!important;
+  left: -9px;
+  width: 221px!important;
+  height: 34px!important;
   transition: background-color 0.3s, width 1s;
   animation: pulse 1s infinite;
 }
@@ -159,6 +159,24 @@ body{
   background-color: transparent;
   filter: hue-rotate(-45deg) !important;
 }
+
+.statusProfile-3ynqtt{
+  position: absolute;
+  z-index: 0;
+  border-radius: 0px;
+  bottom: -10px;
+  left: -10px;
+  width: 110px;
+  height: 110px;
+  clip-path: polygon(0px 0px, 0px 110px, 10px 110px, 10px 10px, 100px 10px, 100px 100px, 10px 100px, 10px 110px, 110px 110px, 110px 0px);
+}
+
+.image-33JSyf, .avatarHint-1qgaV3{
+  z-index: 2 !important;
+  border-radius: 0px;
+  transition: .2s;
+}
+
 /* </editor-fold> */
 
 /* <editor-fold Server Things */
@@ -181,6 +199,7 @@ body{
 .member-3W1lQa{
   background-image: linear-gradient(to top, rgba(var(--main-color), .3) 0%, transparent 60%);
   border-bottom: 2px solid rgba(var(--main-color), 1);
+  border-radius: 0px;
 }
 .channel-2QD9_O {
   background-image: linear-gradient(to top, rgba(var(--main-color), .1) 0%, transparent 50%);
