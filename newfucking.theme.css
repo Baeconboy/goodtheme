@@ -42,6 +42,7 @@ foreignObject{
 
 body{
   background-image: var(--main-bg) !important;
+  background-size: cover;
 }
 .gameLibrary-TTDw4Y, .table-1tDS6w, .theme-dark .activityFeed-1C0EmJ, .contentRegion-3nDuYy, .standardSidebarView-3F1I7i, #user-settings, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .theme-dark .guildsWrapper-5TJh6A, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .typing-2GQL18,
 .theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, #app-mount, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
@@ -213,9 +214,13 @@ body{
   border: none !important;
 }
 .scroller-2FKFPG::-webkit-scrollbar-thumb{
-  filter:brightness(200%) !important;
-  background-color: rgba(var(--main-color), .1) !important;
-  border-color: rgba(var(--main-color), .2) !important;
+  background-color: rgba(var(--main-color), 0.2) !important;
+  border-color: rgba(var(--main-color), .7) !important;
+  border-radius: 0px !important;
+  border-right-width: 0px !important;
+  border-left-width: 0px !important;
+  border-top-width: 4px !important;
+  border-bottom-width: 4px !important;
 }
 /* </editor-fold> */
 
