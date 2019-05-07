@@ -26,13 +26,13 @@ foreignObject{
 .wordmark-2iDDfm::after{
   position: absolute;
   text-align: center;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a7/Skype_logo.svg) !important;
+  background-image: url(https://pre00.deviantart.net/044b/th/pre/f/2016/037/7/6/minecraft_logo_png_by_stevezinho-d9qpqxy.png) !important;
   background-size: cover;
   content:'fuck me';
   color: transparent;
   align-self: center;
   width: 100%;
-  top: -2px;
+  top: -6px;
   left: 70px;
   text-transform: uppercase;
   font-weight: 900;
@@ -388,11 +388,11 @@ body{
 }
 .pill-31IEus{
   pointer-events: none;
-  z-index: 1;
-  height: 50px;
-  width: 48px;
-  top: 0px;
-  left: 12px;
+  z-index: 1 !important;
+  height: 50px !important;
+  width: 48px !important;
+  top: 0px !important;
+  left: 12px !important;
 }
 .item-2hkk8m{
   margin-left: 0px;
@@ -400,7 +400,12 @@ body{
   height: 48px !important;
   width: 48px !important;
   background-color: transparent;
+  transform: translate3d(0px, 0px, 0px) !important;
   background-image: linear-gradient(to top, rgba(var(--main-color), 1) 5%, transparent 50%) !important;
+}
+
+.pill-2uzAFe, .pill-3YxEhL{
+  display: none;
 }
 
 /* https://cdn.wallpapersafari.com/62/70/wp6zBQ.jpg */
