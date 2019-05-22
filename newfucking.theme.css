@@ -184,14 +184,23 @@ body{
 .channel-2QD9_O {
   background-image: linear-gradient(to top, rgba(var(--main-color), .1) 0%, transparent 50%);
   border-bottom: 2px solid rgba(var(--main-color), 1);
+
 }
 
 .selected-37j_iU .content-3at_AU{
   background-color: rgba(var(--main-color), .2) !important;
+  margin-left: 20px !important;
+  transition: margin-left .3s;
 }
 
 .containerDefault-1ZnADq:hover .content-3at_AU{
   background-color: rgba(var(--main-color), .5) !important;
+  margin-left: 17px;
+  transition: margin-left .3s;
+}
+
+.containerDefault-1ZnADq .content-3at_AU *{
+  transition: margin-left .3s;
 }
 /* </editor-fold> */
 
@@ -520,6 +529,14 @@ body{
 .searchFilter-2ESiM3 {
     background-color: rgba(200, 200, 200, .2) !important;
 }
+/* </editor-fold> */
+
+/* <editor-fold popups */
+
+.modal-3HD5ck, .footer-2yfCgX{
+  background-color: rgba(var(--main-color), .3) !important;
+}
+
 /* </editor-fold> */
 /*                          Animations                                          */
 
