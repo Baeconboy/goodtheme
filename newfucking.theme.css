@@ -160,6 +160,7 @@ body{
 /* </editor-fold> */
 
 /* <editor-fold Server Things */
+
 /* Mention color */
 .isMentioned-N-h9aa{
   background-color: rgba(var(--main-color), .1) !important;
@@ -180,11 +181,21 @@ body{
   background-image: linear-gradient(to top, rgba(var(--main-color), .3) 0%, transparent 60%);
   border-bottom: 2px solid rgba(var(--main-color), 1);
   border-radius: 0px;
+  transition: margin-left .2s;
 }
+
+.member-3W1lQa:hover .content-OzHfo4{
+  background-color: transparent !important;
+}
+
+.member-3W1lQa:hover{
+  margin-left: 20px;
+}
+
 .channel-2QD9_O {
   background-image: linear-gradient(to top, rgba(var(--main-color), .1) 0%, transparent 50%);
   border-bottom: 2px solid rgba(var(--main-color), 1);
-
+  transition: margin-left .3s;
 }
 
 .selected-37j_iU .content-3at_AU{
@@ -199,7 +210,7 @@ body{
   transition: margin-left .3s;
 }
 
-.containerDefault-1ZnADq .content-3at_AU *{
+.containerDefault-1ZnADq .content-3at_AU{
   transition: margin-left .3s;
 }
 /* </editor-fold> */
@@ -227,6 +238,17 @@ body{
 /* </editor-fold> */
 
 /* <editor-fold Timestamp things */
+
+.edited-DL9ECl{
+  color: transparent !important;
+}
+.edited-DL9ECl::after{
+  position: relative;
+  content: "(suffering)";
+  color: hsla(0,0%,100%,.2);
+  left: -29px;
+}
+
 .headerCozyMeta-rdohGq{
   position: relative;
   top: -10px;
@@ -249,6 +271,7 @@ body{
   background-image: linear-gradient(to bottom, transparent 20%, rgb(var(--main-color)) 50%);
   height: 22px;
   width: 2px;
+  right: -2px;
 }
 .timestampCozy-2hLAPV{
   font-weight: 450;
@@ -261,29 +284,29 @@ body{
 /* </editor-fold> */
 
 /* <editor-fold category colors */
-.container-1 .name-IbjUBS, .container-7 .name-IbjUBS{
+/* .container-1 .name-IbjUBS, .container-7 .name-IbjUBS, .containerDefault-3GGEv_:nth-child(1) .name-IbjUBS{
   color: #ed6f85;
 }
-.container-2 .name-IbjUBS, .container-8 .name-IbjUBS{
+.container-2 .name-IbjUBS, .container-8 .name-IbjUBS, .containerDefault-3GGEv_:nth-child(2) .name-IbjUBS{
   color: #ffba6d;
 }
-.container-3 .name-IbjUBS, .container-9 .name-IbjUBS{
+.container-3 .name-IbjUBS, .container-9 .name-IbjUBS, .containerDefault-3GGEv_:nth-child(3) .name-IbjUBS{
   color: #fedd74;
 }
-.container-4 .name-IbjUBS, .container-10 .name-IbjUBS{
+.container-4 .name-IbjUBS, .container-10 .name-IbjUBS, .containerDefault-3GGEv_:nth-child(4) .name-IbjUBS{
   color: #b2f067;
 }
-.container-5 .name-IbjUBS, .container-11 .name-IbjUBS{
+.container-5 .name-IbjUBS, .container-11 .name-IbjUBS, .containerDefault-3GGEv_:nth-child(5) .name-IbjUBS{
   color: #4572e7;
 }
-.container-6 .name-IbjUBS, .container-12 .name-IbjUBS{
+.container-6 .name-IbjUBS, .container-12 .name-IbjUBS, .containerDefault-3GGEv_:nth-child(6) .name-IbjUBS{
   color: #d287f0;
-}
+} */
 
 /* </editor-fold> */
 
 /* <editor-fold channel colors */
-.container-1 *:not(.name-IbjUBS), .container-7 *:not(.name-IbjUBS){
+/* .container-1 *:not(.name-IbjUBS), .container-7 *:not(.name-IbjUBS){
   color: #ea8f9f !important;
 }
 .container-2 *:not(.name-IbjUBS), .container-8 *:not(.name-IbjUBS){
@@ -303,7 +326,7 @@ body{
 }
 .modeMuted-3osy7j{
   filter: brightness(50%);
-}
+} */
 /* </editor-fold> */
 
 /* <editor-fold toggle buttons */
