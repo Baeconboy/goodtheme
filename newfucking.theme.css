@@ -158,31 +158,29 @@ body{
 }
 
 #StatusPickerPopout{
-  bottom: -20px;
-  height: 120px;
-  width: 120px;
-  background-color: rgba(var(--main-color), .8);
+  height: 40px;
+  width: 160px;
+  background-color: black;
 
 }
 .item-1GzJrl{
   transition: .3s;
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
   color: transparent;
   font-size: 0px;
   overflow: hidden;
   align-items: stretch;
   display: inline-block;
-  margin-left: 20px;
-  margin-top: 20px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+
+  background-color: rgba(var(--main-color), .3) !important;
+  border-bottom: 2px solid rgba(var(--main-color), 1) !important;
 }
 .item-1GzJrl:hover{
-  width: 50px;
-  height: 50px;
-  background-color: rgba(50, 50, 50, .5) !important;
+  background-color: rgba(var(--main-color), .5) !important;
 }
 
 .helper-2c73HK, .separator-2zcjq8{
