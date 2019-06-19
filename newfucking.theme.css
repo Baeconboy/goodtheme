@@ -161,6 +161,7 @@ body{
   height: 40px;
   width: 160px;
   background-color: black;
+  overflow: hidden;
 
 }
 .item-1GzJrl{
@@ -169,8 +170,8 @@ body{
   height: 40px;
   color: transparent;
   font-size: 0px;
-  overflow: hidden;
   align-items: stretch;
+  overflow: hidden;
   display: inline-block;
   background-size: contain;
   background-position: center;
@@ -192,16 +193,27 @@ body{
   background-color: transparent !important;
 }
 .item-1GzJrl:nth-of-type(1){
-  background-image: url(https://i.imgur.com/Gvmjmrf.png)
+  background-image: url(https://i.imgur.com/Gvmjmrf.png);
+  animation: fadein .5s forwards;
+  opacity: 0;
 }
 .item-1GzJrl:nth-of-type(3){
   background-image: url(https://i.imgur.com/Ht9yEEc.png);
+  animation: fadein .5s forwards;
+  animation-delay: .1s;
+  opacity: 0;
 }
 .item-1GzJrl:nth-of-type(4){
   background-image: url(https://i.imgur.com/FTmL3Jg.png);
+  animation: fadein .5s forwards;
+  animation-delay: .2s;
+  opacity: 0;
 }
 .item-1GzJrl:nth-of-type(5){
-  background-image: url(https://i.imgur.com/aEdkWUh.png)
+  background-image: url(https://i.imgur.com/aEdkWUh.png);
+  animation: fadein .5s forwards;
+  animation-delay: .3s;
+  opacity: 0;
 
 }
 
@@ -621,5 +633,15 @@ body{
 @keyframes pulse {
   50%{
     background-color: white;
+  }
+}
+@keyframes fadein{
+  from{
+    opacity: 0;
+    margin-bottom: -40px;
+  }
+  to{
+    opacity: 1;
+    margin-bottom: 0px;
   }
 }
