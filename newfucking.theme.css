@@ -442,12 +442,10 @@ body{
 
 .btn-primary, .childWrapper-anI2G9{
   background-color: rgb(var(--main-color));
-  transition: filter .5s;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
   background-color: rgb(var(--main-color)) !important;
   filter: hue-rotate(90deg) !important;
-  transition: filter .5s;
 }
 .button-38aScr:hover, .button-2b6hmh:hover, .blob-1PX1Gp:hover, .button-OhfaWu.selected-wSa2KV, .acronym-2mOFsV:hover, .circleIconButton-jET_ig:hover{
   border-radius: 0px !important;
