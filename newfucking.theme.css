@@ -609,7 +609,7 @@ body{
   border-bottom: 2px solid rgba(var(--main-color), 1) !important;
 }
 .editor-wrapper::after{
-  content: "Color Preview";
+  content: "Tea and crumpets";
   position: absolute;
   right: 40px;
   bottom: 36px;
