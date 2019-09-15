@@ -135,7 +135,7 @@ body{
   filter: hue-rotate(45deg) !important;
 }
 
-.channel-2QD9_O:hover a{
+.channel-2QD9_O:hover .avatar-3uk_u9{
   background-color: transparent;
   filter: hue-rotate(-45deg) !important;
 }
@@ -596,6 +596,36 @@ body{
   background-color: rgba(var(--main-color), .3) !important;
 }
 
+.theme-dark .headerNormal-T_seeN{
+  background-color: rgba(0, 0, 0, .6);
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6{
+  background-color: rgba(0, 0, 0, 0.4)
+}
+.theme-dark .quickMessage-1yeL4E{
+  transition: .3s;
+  background-color: rgba(var(--main-color), .3) !important;
+  border-radius: 0px !important;
+  border-bottom: 2px solid rgba(var(--main-color), 1) !important;
+}
+.editor-wrapper::after{
+  content: "Color Preview";
+  position: absolute;
+  right: 40px;
+  bottom: 36px;
+  background-color: rgb(var(--main-color));
+  height: 91px;
+  width: 100px;
+}
+/* </editor-fold> */
+
+/* <editor-fold activity*/
+.theme-dark .popout-3G62UL, .outer-2IVh5n.interactive-1BeKSi, .theme-dark .wrapper-3UweLa, .theme-dark .recentlyPlayedContainer-2F3MqS{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.theme-dark .outer-2IVh5n.interactive-1BeKSi:hover, .theme-dark .popoutContainer-3WC9HR:hover, .theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover{
+  background-color: rgba(0, 0, 0, 0.7);
+}
 /* </editor-fold> */
 /*                          Animations                                          */
 
