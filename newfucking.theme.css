@@ -603,6 +603,10 @@ body{
 
 /* <editor-fold popups */
 
+.pictureInPictureWindow-1B5qSe{
+  display: none;
+}
+
 .modal-3HD5ck, .footer-2yfCgX{
   background-color: rgba(var(--main-color), .3) !important;
 }
