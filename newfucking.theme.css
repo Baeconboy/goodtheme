@@ -10,7 +10,7 @@ foreignObject{
   mask: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/500px-Square_-_black_simple.svg.png)
 }
 
-.wrapper-1Rf91z, .container-1r6BKw, .divider-3gKybi span{
+.wrapper-1Rf91z, .container-1r6BKw, .divider-3gKybi span, .bg-h5JY_x{
   background-color: transparent !important;
 }
 
@@ -66,6 +66,13 @@ body{
 /* </editor-fold> */
 
 /* <editor-fold Status */
+
+/* foreignObject .avatar-VxgULZ{
+  clip-path: polygon(0% 0%, 0% 100%, 60% 100%, 60% 60%, 100% 60%, 100% 0%);
+} */
+.cursorDefault-dsQJ1n rect{
+}
+
 /* make 3 dots when typing invisible */
 .pulsingEllipsisItem-32hhWL{
   display: none;
@@ -220,18 +227,18 @@ body{
    background-color: rgba(var(--main-color), .9) !important;
  }
 
-.member-3W1lQa{
+.member-3W1lQa, .member-3-YXUe{
   background-image: linear-gradient(to top, rgba(var(--main-color), .3) 0%, transparent 60%);
   border-bottom: 2px solid rgba(var(--main-color), 1);
   border-radius: 0px;
   transition: margin-left .2s;
 }
 
-.member-3W1lQa:hover .content-OzHfo4{
+.member-3W1lQa:hover .content-OzHfo4, .member-3-YXUe:hover .content-3QAtGj{
   background-color: transparent !important;
 }
 
-.member-3W1lQa:hover{
+.member-3W1lQa:hover, .member-3-YXUe:hover{
   margin-left: 20px;
 }
 
