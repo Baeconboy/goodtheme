@@ -1,8 +1,8 @@
 //META{"name":"New_fucking_Theme","description":"man sure does feel great to be alive doesnt it","author":"Baecon","version":"1.0"}*//
 
 :root {
-  --main-color: 0, 147, 250;
-  --main-bg: url(https://wonderfulengineering.com/wp-content/uploads/2014/06/galaxy-wallpapers-12.jpg);
+  --main-color: 140, 140, 140;
+  --main-bg: url();
 }
 /* <editor-fold Background removals */
 
@@ -192,7 +192,31 @@ body{
 /* </editor-fold> */
 
 /* <editor-fold Server Things */
+/** Memberlist **/
+.membersWrap-2h-GB4::before{content:"ah shit";width:32px;background-color: rgba(0,0,0,.4);transition:.2s linear}
+.membersWrap-2h-GB4:hover::before{width:0}
 
+.membersWrap-2h-GB4{min-width:unset; background-color: rgba(0,0,0,.4)}
+.members-1998pB {padding-bottom:70px;width:0;transition: .2s ease-in-out}
+.membersWrap-2h-GB4:hover .members-1998pB {width: 240px}
+
+.membersWrap-2h-GB4:hover .member-3-YXUe{width:220px}
+
+
+
+
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb){
+  background-color: transparent;
+  border-radius: 0px;
+  border:2px solid rgba(var(--main-color), 1);
+  left: 10px;
+}
+.folder-21wGz3{
+  background: transparent;
+}
+.expandedGuilds-1JMD4M .listItem-2P_4kh{
+  margin-bottom: 5.8px;
+}
 /* Mention color */
 .isMentioned-N-h9aa{
   color: rgb(var(--main-color));
