@@ -63,6 +63,33 @@ body{
 .wordmark-2iDDfm svg path{
   fill: rgba(var(--main-color), 1);
 }
+.root-SR8cQa{
+  background-color: rgba(var(--main-color), 0.9) !important;
+}
+
+.body-3ND3kc{
+  background-color:transparent;
+}
+.topSectionNormal-2-vo2m{
+  background-color: rgba(0, 0, 0, 0.5)
+}
+.tabBarContainer-1s1u-z::after{
+  position: absolute;
+  content: "";
+  height:10px !important;
+  width:100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .5) 0%, transparent 100%)!important;
+  top: 258px;
+  left: 0px;
+}
+
+.header-23xsNx > img{
+  border-radius:0px;
+}
+
+.scroller-2FKFPG{
+  background-color: transparent !important;
+}
 /* </editor-fold> */
 
 /* <editor-fold Status */
@@ -528,7 +555,20 @@ body{
 .pill-2uzAFe, .pill-3YxEhL{
   display: none;
 }
+.channelTextArea-rNsIhG{
+background-color: rgba(var(--main-color), .3);
+border-radius: 0px !important;
+border-bottom: 2px solid rgba(var(--main-color), 1);
+}
 
+.attachButton-2WznTc, .scrollableContainer-2NUZem{
+  background-color: transparent;
+  border-radius: 0px !important;
+  border-bottom: 0px solid transparent;
+}
+.form-2fGMdU:before{
+  display:none
+}
 /* https://cdn.wallpapersafari.com/62/70/wp6zBQ.jpg */
 /* </editor-fold> */
 
