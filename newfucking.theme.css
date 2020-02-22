@@ -558,7 +558,6 @@ body{
 .channelTextArea-rNsIhG{
 background-color: rgba(var(--main-color), .3);
 border-radius: 0px !important;
-border-bottom: 2px solid rgba(var(--main-color), 1);
 }
 
 .attachButton-2WznTc, .scrollableContainer-2NUZem{
@@ -569,6 +568,13 @@ border-bottom: 2px solid rgba(var(--main-color), 1);
 .form-2fGMdU:before{
   display:none
 }
+
+.textAreaSlate-1ZzRVj{
+  border-radius:0px;
+  border-bottom: 2px solid rgba(var(--main-color), 1);
+
+}
+
 /* https://cdn.wallpapersafari.com/62/70/wp6zBQ.jpg */
 /* </editor-fold> */
 
