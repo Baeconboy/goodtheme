@@ -461,6 +461,7 @@ body{
   border-bottom: 2px solid rgba(var(--main-color), 1) !important;
   transition: border-bottom .2s ease, background .3s;
 }
+
 .valueChecked-m-4IJZ::after{
   transition: left .2s;
   font-weight: 900;
