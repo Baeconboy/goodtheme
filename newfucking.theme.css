@@ -23,7 +23,7 @@ body{
   background-image: var(--main-bg) !important;
   background-size: cover;
 }
-.sidebarRegionScroller-3MXcoP, .scroller-1IIF0A, .scroller-9moviB, .privateChannels-1nO12o, .gameLibrary-TTDw4Y, .table-1tDS6w, .theme-dark .activityFeed-1C0EmJ, .contentRegion-3nDuYy, .standardSidebarView-3F1I7i, #user-settings, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .theme-dark .guildsWrapper-5TJh6A, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .typing-2GQL18,
+.container-1D34oG, .sidebarRegionScroller-3MXcoP, .scroller-1IIF0A, .scroller-9moviB, .privateChannels-1nO12o, .gameLibrary-TTDw4Y, .table-1tDS6w, .theme-dark .activityFeed-1C0EmJ, .contentRegion-3nDuYy, .standardSidebarView-3F1I7i, #user-settings, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .theme-dark .guildsWrapper-5TJh6A, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .typing-2GQL18,
 .theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, #app-mount, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
 .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark #friends,
 .theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb, .theme-dark .content-yTz4x3, .chat-3bRxxu.da-chat, .theme-dark .messagesWrapper-3lZDfY,
@@ -89,6 +89,10 @@ body{
 
 .scroller-2FKFPG{
   background-color: transparent !important;
+}
+
+.nowPlayingColumn-2sl4cE, .wrapper-3D2qGf, .inset-3sAvek, .quickswitcher-3JagVE{
+  background-color: rgba(0,0,0,0.5) !important;
 }
 /* </editor-fold> */
 
@@ -193,28 +197,17 @@ body{
 
 .item-1GzJrl{
   transition: .3s;
-  background-color: rgba(0, 0, 0, .5);
-  background-image: linear-gradient(to right, rgba(var(--main-color), .5) 0%, transparent 100%)!important;
+  background-color: rgba(0, 0, 0, 0.5);
   border-bottom: 2px solid rgba(var(--main-color), 1) !important;
 
 }
 .item-1GzJrl:hover{
   transition: .3s;
-  background-color: black !important;
-  background-image: linear-gradient(to right, rgba(var(--main-color), 0.9) 0%, transparent 100%)!important;
+  background-color: rgba(0, 0, 0, 0.2);
 
-}
-.item-1GzJrl:hover div, .item-1GzJrl:hover svg{
-  transition: .3s;
-  transform: translateX(10px);
-}
-
-.item-1GzJrl *{
-  transition: .3s;
-  filter: drop-shadow(0px 0px 3px #282828);
 }
 .menu-Sp6bN1{
-  background-color: transparent !important;
+  background-color: rgba(var(--main-color), 0.9) !important;
 }
 /* </editor-fold> */
 
@@ -502,7 +495,7 @@ body{
 /* </editor-fold> */
 
 /* <editor-fold buttons */
-.blob-1PX1Gp, .circleIconButton-jET_ig, .blobContainer-239gwq, .button-OhfaWu:not(.selected-wSa2KV), .searchBar-3dMhjb, .searchBarComponent-32dTOx, .button-38aScr:not(.attachButton-1UjEWA):not(.buttonWrapper-1ZmCpA):not(.emojiButton-3uL3Aw), .button-2b6hmh, .inner-zqa7da{
+.blob-1PX1Gp, .circleIconButton-jET_ig, .blobContainer-239gwq, .button-OhfaWu:not(.selected-wSa2KV), .searchBar-3dMhjb, .searchBarComponent-32dTOx, .button-2b6hmh, .inner-zqa7da{
   transition: .3s;
   background-color: rgba(var(--main-color), .3) !important;
   border-radius: 0px !important;
@@ -573,6 +566,26 @@ border-radius: 0px !important;
   border-radius:0px;
   border-bottom: 2px solid rgba(var(--main-color), 1);
 
+}
+
+.input-2VB9rf{
+  border-radius:0px;
+  border-bottom: 2px solid rgba(var(--main-color), 1);
+  background-color: transparent
+
+}
+
+.keybindShortcut-1BD6Z1 span{
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .4) !important;
+  background-color: rgba(var(--main-color), 1) !important;
+}
+.keybindShortcut-1BD6Z1 span:active{
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .4) !important;
+  background-color: rgba(var(--main-color), 1);
+}
+
+.actionButton-uPB8Fs{
+  background-color: rgba(var(--main-color), 0.4)
 }
 
 /* https://cdn.wallpapersafari.com/62/70/wp6zBQ.jpg */
