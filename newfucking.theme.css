@@ -213,14 +213,14 @@ body{
 
 /* <editor-fold Server Things */
 /** Memberlist **/
-.membersWrap-2h-GB4::before{content:"ah shit";width:32px;background-color: rgba(0,0,0,.4);transition:.2s linear}
+/* .membersWrap-2h-GB4::before{content:"ah shit";width:32px;background-color: rgba(0,0,0,.4);transition:.2s linear}
 .membersWrap-2h-GB4:hover::before{width:0}
 
 .membersWrap-2h-GB4{min-width:unset; background-color: rgba(0,0,0,.4)}
 .members-1998pB {padding-bottom:70px;width:0;transition: .2s ease-in-out}
 .membersWrap-2h-GB4:hover .members-1998pB {width: 240px}
 
-.membersWrap-2h-GB4:hover .member-3-YXUe{width:220px}
+.membersWrap-2h-GB4:hover .member-3-YXUe{width:220px} */
 
 
 
@@ -228,14 +228,23 @@ body{
 .expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb){
   background-color: transparent;
   border-radius: 0px;
-  border:2px solid rgba(var(--main-color), 1);
+  /* border:2px solid rgba(var(--main-color), 1); */
+  height:100%;
   left: 10px;
 }
+.wrapper-21YSNc > div >.listItem-2P_4kh{
+  left: 10px;
+}
+
+.wrapper-21YSNc > div >.listItem-2P_4kh > .pill-31IEus{
+  border-left: 5px solid rgb(var(--main-color)) !important;
+}
+
 .folder-21wGz3{
   background: transparent;
 }
-.expandedGuilds-1JMD4M .listItem-2P_4kh{
-  margin-bottom: 5.8px;
+.listItem-2P_4kh{
+  margin-bottom: 5.7px !important;
 }
 /* Mention color */
 .isMentioned-N-h9aa{
