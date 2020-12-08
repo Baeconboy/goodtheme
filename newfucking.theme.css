@@ -5,7 +5,6 @@
   --main-bg: url();
 }
 /* <editor-fold Background removals */
-
 foreignObject{
   mask: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/500px-Square_-_black_simple.svg.png)
 }
@@ -27,7 +26,7 @@ body{
 .theme-dark .members-1998pB, .members-1998pB>div, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, #app-mount, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
 .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark #friends,
 .theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb, .theme-dark .content-yTz4x3, .chat-3bRxxu.da-chat, .theme-dark .messagesWrapper-3lZDfY,
-.theme-dark .chat-3bRxxu, .theme-dark .content-yTz4x3, .theme-dark .divider-3gKybi:before, .sidebar-2K8pFh, .scroller-2TZvBN, .scroller-1JbKMe, .theme-dark .container-3gCOGc
+.theme-dark .chat-3bRxxu, .theme-dark .content-yTz4x3, .theme-dark .divider-3gKybi:before, .scroller-2TZvBN, .scroller-1JbKMe, .theme-dark .container-3gCOGc
 {
   background:rgba(0,0,0,0.1) !important;
 }
@@ -56,11 +55,11 @@ body{
   background:rgba(0,0,0,0.5);
 }
 
-.app-2rEoOp, .itemBackground-2vEldQ:before, .dividerContent-2L12VI, .chat-3bRxxu form{
+.app-2rEoOp, .itemBackground-2vEldQ:before, .dividerContent-2L12VI, .chat-3bRxxu form, .sidebar-2K8pFh{
   background: transparent !important;
 }
 
-.sidebar-2K8pFh{
+.sidebar-2K8pFh, .tree-3tCaw8, .membersWrap-2h-GB4{
   backdrop-filter: blur(3px)
 }
 
@@ -102,6 +101,70 @@ body{
 /* </editor-fold> */
 
 /* <editor-fold Status */
+
+.wrapper-3t9DeA[aria-label$="Online"]{
+  border-bottom: 1px solid #43b581 !important;
+  border-radius: 0px;
+}
+.wrapper-3t9DeA[aria-label$="Disturb"]{
+  border-bottom: 1px solid #F04747 !important;
+  border-radius: 0px;
+}
+.wrapper-3t9DeA[aria-label$="Idle"]{
+  border-bottom: 1px solid #fAA61A !important;
+  border-radius: 0px;
+}
+.wrapper-3t9DeA[aria-label$="Offline"]{
+  border-bottom: 1px solid #78828F !important;
+  border-radius: 0px;
+}
+
+.wrapper-3t9DeA[aria-label$="Online"]::after{
+  content: "h";
+  color:transparent;
+  position: absolute;
+  z-index: 900;
+  bottom:0px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url(https://media.discordapp.net/attachments/403598291046105103/785924636235005962/online.png);
+}
+.wrapper-3t9DeA[aria-label$="Disturb"]::after{
+  content: "h";
+  color:transparent;
+  position: absolute;
+  z-index: 900;
+  bottom:0px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url(https://media.discordapp.net/attachments/403598291046105103/785924629272854548/dnd.png);
+}
+.wrapper-3t9DeA[aria-label$="Idle"]::after{
+  content: "h";
+  color:transparent;
+  position: absolute;
+  z-index: 900;
+  bottom:0px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url(https://media.discordapp.net/attachments/403598291046105103/785923449839157278/idle.png);
+}
+.wrapper-3t9DeA[aria-label$="Offline"]::after{
+  content: "h";
+  color:transparent;
+  position: absolute;
+  z-index: 900;
+  bottom:0px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url(https://media.discordapp.net/attachments/403598291046105103/785924637640491018/offline.png);
+}
+
+.wrapper-3t9DeA rect{display:none}
 
 /* foreignObject .avatar-VxgULZ{
   clip-path: polygon(0% 0%, 0% 100%, 60% 100%, 60% 60%, 100% 60%, 100% 0%);
@@ -226,8 +289,6 @@ body{
 .membersWrap-2h-GB4:hover .members-1998pB {width: 240px}
 
 .membersWrap-2h-GB4:hover .member-3-YXUe{width:220px} */
-
-
 
 
 .expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb){
