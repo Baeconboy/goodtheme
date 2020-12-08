@@ -127,7 +127,8 @@ body{
   bottom:0px;
   width: 100%;
   height: 100%;
-  background-color: transparent;
+  background-repeat: repeat-x;
+  background-position: bottom;
   background-image: url(https://media.discordapp.net/attachments/403598291046105103/785924636235005962/online.png);
 }
 .wrapper-3t9DeA[aria-label$="Disturb"]::after{
@@ -138,7 +139,8 @@ body{
   bottom:0px;
   width: 100%;
   height: 100%;
-  background-color: transparent;
+  background-repeat: repeat-x;
+  background-position: bottom;
   background-image: url(https://media.discordapp.net/attachments/403598291046105103/785924629272854548/dnd.png);
 }
 .wrapper-3t9DeA[aria-label$="Idle"]::after{
@@ -149,7 +151,8 @@ body{
   bottom:0px;
   width: 100%;
   height: 100%;
-  background-color: transparent;
+  background-repeat: repeat-x;
+  background-position: bottom;
   background-image: url(https://media.discordapp.net/attachments/403598291046105103/785923449839157278/idle.png);
 }
 .wrapper-3t9DeA[aria-label$="Offline"]::after{
@@ -160,7 +163,8 @@ body{
   bottom:0px;
   width: 100%;
   height: 100%;
-  background-color: transparent;
+  background-repeat: repeat-x;
+  background-position: bottom;
   background-image: url(https://media.discordapp.net/attachments/403598291046105103/785924637640491018/offline.png);
 }
 
