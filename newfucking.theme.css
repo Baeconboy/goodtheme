@@ -6,7 +6,7 @@
 }
 /* <editor-fold Background removals */
 foreignObject{
-  mask: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/500px-Square_-_black_simple.svg.png)
+  mask: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/500px-Square_-_black_simple.svg.png) !important
 }
 
 .wrapper-1Rf91z, .container-1r6BKw, .divider-3gKybi span, .bg-h5JY_x{
@@ -418,6 +418,13 @@ body{
 }
 .folder-1hbNCn{
   background-color: rgba(var(--main-color), 0.4);
+
+}
+
+.wrapperSimple-19ogV2, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW{
+  border-radius: 0px;
+}
+.svg-1X37T1{
 
 }
 
