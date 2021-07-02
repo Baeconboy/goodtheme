@@ -193,7 +193,6 @@ body{
   background-color: white;
 }
 
-
 .wrapper-3t9DeA rect{display:none}
 
 /* foreignObject .avatar-VxgULZ{
@@ -306,6 +305,14 @@ body{
 }
 .menu-Sp6bN1{
   background-color: rgba(var(--main-color), 0.9) !important;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > form > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > div:nth-child(3), #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > form > div:nth-child(1) > div > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > div:nth-child(3) > button{
+  animation: gone 1s forwards;
+  animation-delay: 1s;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > form > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > button, #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > form > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > div.buttonContainer-28fw2U.bd-guild, #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > form > div:nth-child(1) > div > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > div.buttonContainer-28fw2U.da-buttonContainer.bd-guild, #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > form > div:nth-child(1) > div > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > button{
+  animation: slideInSticker 1s forwards;
+  animation-delay: 2s;
 }
 /* </editor-fold> */
 
@@ -863,13 +870,14 @@ border-radius: 0px !important;
   border-bottom: 2px solid rgba(var(--main-color), 1) !important;
 }
 .editor-wrapper::after{
-  content: "Tea and crumpets";
+  content: "Color Preview";
+  color: white;
   position: absolute;
-  right: 40px;
-  bottom: 36px;
+  right: 41px;
+  bottom: 81px;
   background-color: rgb(var(--main-color));
-  height: 91px;
-  width: 100px;
+  height: 94px;
+  width: 94px;
 }
 /* </editor-fold> */
 
@@ -896,5 +904,24 @@ border-radius: 0px !important;
   to{
     opacity: 1;
     margin-bottom: 0px;
+  }
+}
+@keyframes gone{
+  50%{
+    transform: rotateZ(270deg);
+  }
+  70%{
+    transform: translateX(-5px) rotateZ(270deg);
+  }
+  100%{
+    transform: translateX(100px) rotateZ(270deg);
+  }
+}
+@keyframes slideInSticker{
+  50%{
+      transform: translateX(40px) rotateZ(14deg)
+  }
+  100%{
+    transform: translateX(35px)
   }
 }
