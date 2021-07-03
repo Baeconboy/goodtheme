@@ -306,6 +306,7 @@ body{
 .menu-Sp6bN1{
   background-color: rgba(var(--main-color), 0.9) !important;
 }
+/**
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > form > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > div:nth-child(3), #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > form > div:nth-child(1) > div > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > div:nth-child(3) > button{
   animation: gone 1s forwards;
   animation-delay: 1s;
@@ -314,6 +315,7 @@ body{
   animation: slideInSticker 1s forwards;
   animation-delay: 2s;
 }
+**/
 /* </editor-fold> */
 
 /* <editor-fold Server Things */
