@@ -106,7 +106,7 @@ body{
   border-bottom: 1px solid #43b581 !important;
   border-radius: 0px;
 }
-.wrapper-3t9DeA[aria-label$="Disturb"]{
+.wrapper-3t9DeA[aria-label$="disturb"]{
   border-bottom: 1px solid #F04747 !important;
   border-radius: 0px;
 }
@@ -135,7 +135,7 @@ body{
   background-position: bottom;
   background-image: url(https://media.discordapp.net/attachments/403598291046105103/785924636235005962/online.png);
 }
-.wrapper-3t9DeA[aria-label$="Disturb"]::after{
+.wrapper-3t9DeA[aria-label$="disturb"]::after{
   content: "h";
   color:transparent;
   position: absolute;
